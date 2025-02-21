@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Element Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <a href="muralideas.html" class="back-button">← Back to Home</a>
+        <div class="details-container">
+            <h1 id="elementTitle"></h1>
+            <form class="details-form" id="detailsForm">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+                <button type="submit">Save Information</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Get the element name from URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const elementName = urlParams.get('element');
+        
+        // Set the title
+        document.getElementById('elementTitle').textContent = elementName;
+        
+        // Load existing data if available
+        const savedData = localStorage.getItem(elementName);
+        if (savedData) {
+            document.getElementById('description').value = savedData;
+        }
+        
+        // Handle form submission
+        document.getElementById('detailsForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const description = document.getElementById('description').value;
+            
+            // Save to localStorage
+            localStorage.setItem(elementName, description);
+            
+            alert('Information saved successfully!');
+        });
+    </script>
+</body>
+</html>
