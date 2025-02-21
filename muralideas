@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Mural Elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>School Mural Elements</h1>
+        <div class="mural-elements">
+            <a href="details.html?element=Clock Tower" class="element">
+                <h3>Clock Tower</h3>
+            </a>
+            <a href="details.html?element=Second Chance Prom" class="element">
+                <h3>Second Chance Prom</h3>
+            </a>
+            <a href="details.html?element=Upperman's Fashion Show" class="element">
+                <h3>Upperman's Fashion Show</h3>
+            </a>
+            <a href="details.html?element=Centro Dances" class="element">
+                <h3>Centro Dances</h3>
+            </a>
+            <a href="details.html?element=Spirit Rock" class="element">
+                <h3>Spirit Rock</h3>
+            </a>
+            <a href="details.html?element=1898 Memorial Statue" class="element">
+                <h3>1898 Memorial Statue</h3>
+            </a>
+            <a href="details.html?element=UNCW Seahawk" class="element">
+                <h3>UNCW Seahawk</h3>
+            </a>
+            <a href="details.html?element=Mi Casa Houses" class="element">
+                <h3>Mi Casa Houses</h3>
+            </a>
+            <a href="details.html?element=Founding Dates for the Center" class="element">
+                <h3>Founding Dates for the Center</h3>
+            </a>
+            <a href="details.html?element=Shoutout to Sholz and Mohin" class="element">
+                <h3>Shoutout to Sholz and Mohin</h3>
+            </a>
+            <a href="details.html?element=Wall of Fame" class="element">
+                <h3>Wall of Fame</h3>
+            </a>
+            <a href="details.html?element=Boseman Art Gallery" class="element">
+                <h3>Boseman Art Gallery</h3>
+            </a>
+            <a href="details.html?element=MPHC Fraternities" class="element">
+                <h3>MPHC Fraternities</h3>
+            </a>
+            <a href="details.html?element=APSI" class="element">
+                <h3>APSI</h3>
+            </a>
+            <a href="details.html?element=FSL Fraternities" class="element">
+                <h3>FSL Fraternities</h3>
+            </a>
+            <a href="details.html?element=Cultural Flags" class="element">
+                <h3>Cultural Flags</h3>
+            </a>
+            <a href="details.html?element=Beach Blast" class="element">
+                <h3>Beach Blast</h3>
+            </a>
+            <a href="details.html?element=Maker Space" class="element">
+                <h3>Maker Space</h3>
+            </a>
+            <a href="details.html?element=Helping Hand" class="element">
+                <h3>Helping Hand</h3>
+            </a>
+            <a href="details.html?element=Leutze Pillar" class="element">
+                <h3>Leutze Pillar</h3>
+            </a>
+        </div>
+        <div class="footer">
+            <p>A celebration of our school's heritage and community</p>
+        </div>
+    </div>
+</body>
+</html>
