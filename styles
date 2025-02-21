@@ -1,0 +1,106 @@
+body {
+    font-family: 'Cormorant Garamond', serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+    margin: 0;
+    padding: 40px;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #34495e;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 15px;
+}
+
+.mural-elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.element {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    transition: transform 0.2s;
+    text-decoration: none;
+    display: block;
+}
+
+.element:hover {
+    transform: translateX(5px);
+    background: #edf2f7;
+}
+
+.element h3 {
+    margin: 0;
+    color: #2980b9;
+    font-size: 1.2em;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}
+
+.details-container {
+    padding: 20px;
+}
+
+.details-form {
+    margin-top: 20px;
+}
+
+.details-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.details-form textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.details-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-form button:hover {
+    background-color: #2980b9;
+}
